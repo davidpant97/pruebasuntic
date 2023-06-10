@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-06-2023 a las 01:41:56
+-- Tiempo de generación: 11-06-2023 a las 01:44:32
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 7.4.30
 
@@ -40,11 +40,7 @@ CREATE TABLE `administrador` (
 --
 
 INSERT INTO `administrador` (`id_admin`, `nombre_admin`, `apellido_admin`, `email_admin`, `clave_admin`) VALUES
-(2, 'David', 'Pantevis', 'davidpant64@gmail.com', '123456'),
-(4, 'Raul', 'Cruz', 'raul.@gomez', '123456'),
-(5, 'Emmanuel Fabian', 'Pantevis', 'emmanuel@gmail.com', '123456'),
-(6, 'Dayan Andres', 'Pantevis', 'rico@gmail.com', '123456'),
-(7, 'Emilia', 'Chaux', 'emilia@gmail.com', 'Windows9.1');
+(8, 'SUNTIC', 'EMPRESA', 'suntic@gmail.com', '123456');
 
 -- --------------------------------------------------------
 
@@ -90,7 +86,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `administrador`
 --
 ALTER TABLE `administrador`
-  MODIFY `id_admin` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_admin` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
